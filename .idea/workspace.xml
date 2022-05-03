@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0c68545-b168-4354-b7fe-16829cd0b72b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/LinearScale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/MultipleChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Paragraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/QuizRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ShortAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/TrueOrFalse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_beta_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.13-beta-3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/CheckBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/LinearScaleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/QuizTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/LinearScale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/LinearScale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LinearScale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LinearScale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,17 +92,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.QuizRunner">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="untitled104" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.QuizTest">
     <configuration name="QuizRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.QuizRunner" />
       <module name="untitled104" />
@@ -113,13 +119,82 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinearScaleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LinearScaleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearScaleTest.checkAnswerReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LinearScaleTest" />
+      <option name="METHOD_NAME" value="checkAnswerReturnsTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.QuizTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizTest.addQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.QuizTest" />
+      <option name="METHOD_NAME" value="addQuestionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.QuizRunner" />
+      <item itemvalue="JUnit.LinearScaleTest.checkAnswerReturnsTrue" />
+      <item itemvalue="JUnit.LinearScaleTest" />
+      <item itemvalue="JUnit.QuizTest.addQuestionTest" />
+      <item itemvalue="JUnit.QuizTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuizTest" />
         <item itemvalue="Application.QuizRunner" />
+        <item itemvalue="JUnit.QuizTest.addQuestionTest" />
+        <item itemvalue="JUnit.LinearScaleTest" />
+        <item itemvalue="JUnit.LinearScaleTest.checkAnswerReturnsTrue" />
       </list>
     </recent_temporary>
   </component>

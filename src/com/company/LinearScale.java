@@ -11,6 +11,14 @@ public class LinearScale extends Question{
         this.highestValue = highestValue;
     }
 
+    public int getLowestValue() {
+        return lowestValue;
+    }
+
+    public int getHighestValue() {
+        return highestValue;
+    }
+
     @Override
     public boolean check(String answer) {
         int answerValue = Integer.parseInt(answer);

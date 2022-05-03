@@ -8,6 +8,10 @@ public class Quiz {
     int score = 0;
     Scanner input = new Scanner(System.in);
 
+    public ArrayList<Question> getQuestions() {
+        return questions;
+    }
+
     public void addQuestions(Question questions){
       this.questions.add(questions);
     }
